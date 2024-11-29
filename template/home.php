@@ -182,7 +182,7 @@
                <img src="<?= $image_banniere . $img_banniere2 ?>" class="img-responsive wow fadeInLeft" alt="" />
             </div>
             <div class="col-lg-6 col-md-8 offset-lg-1">
-               <h1 class="font-oswald" style="color:white;"><?= $titre_banniere2 ?></h1>
+               <h1 class="font-oswald" style="color:white; margin-top:5%;"><?= $titre_banniere2 ?></h1>
                <h3 class="margin-top5" style="color:white;"> Seulement <span class="price-text"><?= $prix ?> <?= $iso ?></span></h3>
                <a href="<?= $retour_sur_lien ?>/point_vente" target="_blank"
                   class="internal-link btn med-btn price-btn margin-top5 margin-right-zero rounded-0 font-weight6 text-uppercase">Commendez Maintenat</a>
@@ -304,7 +304,7 @@
          <div class="row">
             <!-- section title -->
             <div class="col-12 text-center zero-padding">
-               <h3 class="section-heading text-black" style="color:white;">Temoignage</h3>
+               <h3 class="section-heading" style="color:white; margin-top:5%;">Temoignage</h3>
                <div class="med-text text-uppercase letter-space2" style="color:white;">MOTS AIMABLES DES LECTEURS</div>
                <div class="bg-gray-md margin-top-btm-1 line-sep"></div>
             </div>
@@ -316,17 +316,17 @@
                <img alt="" src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?uid=R42397107&ga=GA1.1.1038445777.1714367562&semt=ais_hybrid">
                <p class="center-col" style="color:white;">C'est un ouvrage pratique et pédagogique. Il couvre l'ensemble des aspects essentiels du métier, ce qui en 
                   fait une ressource précieuse pour les transitaires, déclarants, et responsables logistiques. </p>
-               <div class="name text-black" style="color:white;">Ricky Harvard</div>
-               <div class="text-gray" style="color:white;">Responsables logistiques</div>
+               <div class="name" style="color:white;">Ricky Harvard</div>
+               <div  style="color:white;">Responsables logistiques</div>
             </div>
-            <!-- end review -->
+            <!-- end review class="text-gray" this class come from the last balise-->
             <!-- review -->
             <div class="col-lg-3 col-md-6 review-section text-center xs-margin-btm-10 sm-margin-top-5" style="color:white;">
                <img alt="" src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?uid=R42397107&ga=GA1.1.1038445777.1714367562&semt=ais_hybrid">
                <p class="center-col" style="color:white;">Ce livre explique de manière simple et détaillée les bases de la douane et du transit.
                    Grâce à ses cas pratiques et son lexique.</p>
-               <div class="name text-black" style="color:white;">Sarah Miller</div>
-               <div class="text-gray" style="color:white;">Déclarants</div>
+               <div class="name" style="color:white;">Sarah Miller</div>
+               <div  style="color:white;">Déclarants</div>
             </div>
             <!-- end review -->
             <!-- review -->
@@ -334,16 +334,16 @@
                <img alt="" src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?uid=R42397107&ga=GA1.1.1038445777.1714367562&semt=ais_hybrid">
                <p class="center-col" style="color:white;">L'accent mis sur les accords économiques régionaux, comme les APE, 
                   et sur les spécificités du commerce en Afrique, est un véritable atout</p>
-               <div class="name text-black" style="color:white;">Biyong</div>
-               <div class="text-gray" style="color:white;">transitaire</div>
+               <div class="name " style="color:white;">Biyong</div>
+               <div  style="color:white;">transitaire</div>
             </div>
             <!-- end review -->
             <!-- review -->
             <div class="col-lg-3 col-md-6 review-section text-center xs-margin-btm-10 sm-margin-top-10" style="color:white;">
                <img alt="" src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?uid=R42397107&ga=GA1.1.1038445777.1714367562&semt=ais_hybrid">
                <p class="center-col" style="color:white;">Le livre fournit des techniques concrètes pour gérer les formalités douanières, comprendre les régimes de transit, et optimiser les opérations de dédouanement</p>
-               <div class="name text-black" style="color:white;">Eboa</div>
-               <div class="text-gray" style="color:white;">transitaire
+               <div class="name " style="color:white;">Eboa</div>
+               <div  style="color:white;">transitaire
                <div class="container mt-5 bt2"> 
                   <button id="showFormBtn" class="btn btn-primary">Ajouter un Témoignage</button> 
                </div>
